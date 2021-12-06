@@ -22,7 +22,7 @@ defmodule Foo.Pipeline do
            ],
            on_failure: :reject},
         concurrency: 1, # correct behavior
-        # concurrency: 10, # try this for poor performance
+        # concurrency: 10, # also correct as of broadway 1.0.1
       ],
       processors: [
         default: [

@@ -1,5 +1,7 @@
 # Foo
 
+**Note: this repo highlights an issue with producer concurrency > 1 which has been solved in GenStage v1.1.2 and Broadway 1.0.1**.
+
 Demo of confusing behaviors when processing messages using `BroadwayRabbitMQ`.
 
 This simulates a workflow where:
